@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: blue;
+            text-decoration: none;                
+        }
+        a:visited {
+            color: red;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        .especial{
+            color: red;
+        }
+        a::after{
+            content: ' -[link]';
+            color: blue;
+            text-decoration: none;
+            font-weight: normal;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://youtube.com" target="_blank">You tube</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/" target="_blank">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com" class="especial">Site Curso em video</a> </li>
+    </ul>
+</body>
+</html>

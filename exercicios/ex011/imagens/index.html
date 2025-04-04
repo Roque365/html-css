@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas </h1>
+    <p>Tente abrir a midia em outro dispositivo ou diminua e aumente sua tela </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagem-m.png" type="image/png">
+        <img src="imagem-g.png" alt="Imagem flexivel">
+    </picture>
+    <h1>Reproduzindo aúdio</h1>
+    <p>paramentro para reprodução de audio</p>
+    <audio src="midia_infantil.mp3" controls autoplay></audio>
+    
+</body>
+</html> 
