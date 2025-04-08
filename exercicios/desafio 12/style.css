@@ -38,6 +38,7 @@ header > h1{
 
 header > p{
     padding-bottom: 50px;
+   
 }
 
 section{
@@ -45,7 +46,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-family: var(--font3);
+    font-family: var(--font3); 
     font-size: 3vw;
 }
 
@@ -57,12 +58,31 @@ section.normal{
 section.imagem{
     background-color: rgba(51,51,51);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-attachment: fixed;
 }
 
 section.imagem >p{
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.159);
+    background-color: rgba(0, 0, 0, 0.552);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.407);
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+
+section#img01{
+    background-image: url(imagem/imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02{
+    background-image: url(imagem/imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
 }
 
 a{
